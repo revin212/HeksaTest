@@ -22,25 +22,25 @@ namespace HeksaTest
                 Console.ReadKey();
             }
 
-            //int target = 7;
-            //var inputList = new List<int> { 1, 2, 3, 4 };
-            //var result = SumOfTwo(inputList, target);
-            //if(result.GetType() == typeof(string))
-            //{
-            //    Console.WriteLine(result);
-            //}
-            //else
-            //{
-            //    Console.Write("[");
-            //    for(int i=0; i < 2; i++)
-            //    {
-            //        Console.Write(result[i]);
-            //        if(i == 0)
-            //            Console.Write(", ");
-            //    }
-            //    Console.Write("]");
-            //}
-            //Console.ReadKey();
+            int target = 7;
+            var inputList = new List<int> { 1, 2, 3, 4 };
+            var result = SumOfTwo(inputList, target);
+            if (result.GetType() == typeof(string))
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                Console.Write("[");
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.Write(result[i]);
+                    if (i == 0)
+                        Console.Write(", ");
+                }
+                Console.Write("]");
+            }
+            Console.ReadKey();
         }
 
         static bool validatePassword(string password)
